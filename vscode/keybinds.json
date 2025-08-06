@@ -7,8 +7,8 @@
     },
     {
         "key": "ctrl+shift+i",
-        "command": "notebook.formatCell",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
     },
     {
         "key": "ctrl+y",
@@ -45,7 +45,7 @@
     },
     {
         "key": "ctrl+u",
-        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "command": "editor.action.moveSelectionToPreviousFindMatch",
         "when": "editorFocus"
     }
 ]
