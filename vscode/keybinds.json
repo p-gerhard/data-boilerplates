@@ -37,5 +37,15 @@
     {
         "key": "alt+c",
         "command": "columnSelect"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "editorFocus"
     }
 ]
